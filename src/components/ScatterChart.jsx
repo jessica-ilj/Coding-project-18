@@ -1,7 +1,7 @@
 import React from 'react';
 import ChartComponent from './ChartComponent';
 
-const ScatterChart = ({ expenses, profits }) => {
+const ScatterChart = ({ expenses, profits }) => {  //Displays expenses vs. profits.
   const data = {
     datasets: [
       {

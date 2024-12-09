@@ -1,7 +1,7 @@
 import React from 'react';
 import ChartComponent from './ChartComponent';
 
-const LineChart = ({ labels, profits }) => {
+const LineChart = ({ labels, profits }) => { //Displays monthly profits.
   const data = {
     labels,
     datasets: [

@@ -1,7 +1,7 @@
 import React from 'react';
 import ChartComponent from './ChartComponent';
 
-const BubbleChart = ({ sales, expenses, profits }) => {
+const BubbleChart = ({ sales, expenses, profits }) => {   //Displays sales, profits, and expenses.
   const data = {
     datasets: [
       {
